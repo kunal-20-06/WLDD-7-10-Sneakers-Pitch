@@ -1243,23 +1243,32 @@ body {
   opacity: 0.9;
 }
 
-/* Contact Details */
+/* Contact Section Styling */
 .contact-details {
-  display: flex;
-  flex-direction: column;
-  gap: var(--space-20);
+  margin-top: 24px; /* space between heading/subtext and contact infos */
 }
 
 .contact-item {
-  display: flex;
-  flex-direction: column;
-  gap: var(--space-4);
+  margin: 12px 0; /* vertical spacing between email & mobile */
 }
 
-.contact-label {
-  font-size: var(--font-size-sm);
-  color: var(--brand-brown);
-  font-weight: var(--font-weight-medium);
+.contact-item .contact-info {
+  display: inline-block;
+  padding: 12px 20px;
+  font-size: 18px; /* increased font size */
+  font-weight: 500;
+  color: var(--brand-navy);
+  background-color: var(--color-white);
+  border: 2px solid var(--brand-orange);
+  border-radius: 8px;
+  text-decoration: none;
+  transition: all 0.3s ease;
+}
+
+.contact-item .contact-info:hover {
+  background-color: var(--brand-orange);
+  color: var(--color-white);
+  cursor: pointer;
 }
 
 .contact-link {
