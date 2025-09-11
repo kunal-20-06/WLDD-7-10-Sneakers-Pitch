@@ -1498,3 +1498,22 @@ body {
   margin: 0;
   font-weight: var(--font-weight-semibold);
 }
+
+
+/* Custom Modifications */
+
+.below-gif-text h3 {
+  font-style: italic;
+  letter-spacing: 4px; /* extra space between characters */
+}
+
+.journey-section {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0; /* no space between elements */
+}
+
+.journey-section > * {
+  margin: 0; /* remove default margins */
+}
