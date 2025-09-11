@@ -1511,12 +1511,12 @@ body {
   display: flex;
   align-items: center;
   width: 100%; /* take full width of parent */
-  margin: 20px 0;
+  margin: 5px 0;
 }
 
 .journey-section .gif-container {
-  max-width: 400px;   /* or adjust size as needed */
-  min-height: 220px;
+  max-width: 420px;   /* or adjust size as needed */
+  min-height: 315px;
   border: none;       /* remove border */
   border-radius: 0;   /* remove rounded corners */
   box-shadow: none;   /* remove shadows if any */
