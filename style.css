@@ -1488,7 +1488,7 @@ body {
 }
 
 .arrow-container .arrow-image {
-  max-height: 93px;
+  max-height: 210px;
   object-fit: contain;
 }
 
