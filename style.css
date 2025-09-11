@@ -1510,7 +1510,6 @@ body {
 .journey-section {
   display: flex;
   align-items: center;
-  justify-content: space-between; /* pushes items to fill entire width */
   width: 100%; /* take full width of parent */
   margin: 20px 0;
 }
