@@ -1303,6 +1303,35 @@ body {
   background: var(--brand-navy);
   transform: translateY(-2px);
 }
+/* Standardize all contact buttons to look identical */
+.links-section .portfolio-link {
+  background: var(--brand-orange);
+  color: var(--brand-white);
+  padding: var(--space-12) var(--space-20);
+  border-radius: var(--radius-base);
+  text-decoration: none;
+  font-weight: var(--font-weight-medium);
+  font-size: var(--font-size-md);
+  transition: all var(--duration-normal) var(--ease-standard);
+  display: inline-block;
+  text-align: center;
+  min-width: 100px;
+}
+
+.links-section .portfolio-link:hover {
+  background: var(--brand-navy);
+  transform: translateY(-2px);
+}
+
+/* Update links-section to handle 5 buttons nicely */
+.links-section {
+  display: flex;
+  gap: var(--space-12);
+  margin-top: var(--space-16);
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
 
 /* Footer Text */
 .footer-text {
