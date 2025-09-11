@@ -1214,6 +1214,30 @@ body {
   color: var(--brand-navy);
   font-weight: var(--font-weight-medium);
 }
+.market-growth-row {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 32px; /* Space between each box and arrow */
+  margin-bottom: 20px; /* Space between rows */
+  max-width: 680px;   /* Standardizes row width */
+}
+
+.market-value,
+.market-value.highlight {
+  min-width: 210px;
+  max-width: 300px;
+  width: 260px; /* Ensures equal width for all boxes */
+  box-sizing: border-box;
+  text-align: center;
+}
+
+/* Adjust spacing for the arrow if needed */
+.arrow {
+  font-size: 2rem;
+  color: var(--brand-orange, #FF6B35);
+  margin: 0 8px;
+}
 
 /* Projections Grid */
 .projections-grid {
