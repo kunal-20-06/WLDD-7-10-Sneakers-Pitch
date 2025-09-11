@@ -1510,10 +1510,15 @@ body {
 .journey-section {
   display: flex;
   align-items: center;
-  justify-content: center;
-  gap: 0; /* no space between elements */
+  justify-content: space-between; /* pushes items to fill entire width */
+  width: 100%; /* take full width of parent */
+  margin: 20px 0;
 }
 
-.journey-section > * {
-  margin: 0; /* remove default margins */
+.journey-section .gif-container {
+  max-width: 400px;   /* or adjust size as needed */
+  min-height: 220px;
+  border: none;       /* remove border */
+  border-radius: 0;   /* remove rounded corners */
+  box-shadow: none;   /* remove shadows if any */
 }
