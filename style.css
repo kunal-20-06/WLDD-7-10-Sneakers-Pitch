@@ -1429,12 +1429,12 @@ body {
 
   .journey-section {
     flex-direction: column;
-    gap: var(--space-16);
+    gap: var(--space-10);
   }
 
   .journey-section .gif-container {
-    max-width: 250px;
-    min-height: 180px;
+    max-width: 200px;
+    min-height: 150px;
   }
 }
 
@@ -1483,8 +1483,8 @@ body {
 }
 
 .journey-section .gif-container {
-  max-width: 300px;
-  min-height: 220px;
+  max-width: 200px;
+  min-height: 150px;
 }
 
 .arrow-container .arrow-image {
