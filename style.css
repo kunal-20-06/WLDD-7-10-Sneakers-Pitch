@@ -1478,7 +1478,7 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
-  gap: var(--space-32);
+  gap: var(--space-10);
   flex-wrap: wrap; /* keeps it responsive */
 }
 
@@ -1511,7 +1511,7 @@ body {
   display: flex;
   align-items: center;
   width: 100%; /* take full width of parent */
-  margin: 5px 0;
+  margin: 0px 0;
 }
 
 .journey-section .gif-container {
